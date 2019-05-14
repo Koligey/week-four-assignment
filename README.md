@@ -10,7 +10,7 @@ This is a game with two players where each player is given a chance to roll a di
 This game depends on three languages html, css and javascript one however may or may not have bootstrap to perform some of the operations.
 
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+No known bugs while writing this code
 ## Technologies Used
 {Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
 ## Support and contact details
