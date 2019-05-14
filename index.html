@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>PIG DICE GAME</title>
+</head>
+
+<body>
+  <div class="body">
+    <div class="container" id="body">
+      <img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.tutsplus.com%2Fvector%2Fuploads%2Flegacy%2Ftuts%2F165_Shiny_Dice%2F27.jpg&f=1" alt="Logo">
+      <div class="row">
+        <div class="col-md-6 col-s-12 col-xs-12">
+          <h2>PIG DICE</h2>
+          <p>This is a dice game where two players have the chance to roll the dice to try and achieve a score of 100</p>
+        </div>
+      </div>
+      <br>
+      <h4>INSTRUCTIONS</h4>
+        <p>Each turn, a player repeatedly rolls a dice until either a 1 is rolled or the player decides to "hold":</p>
+        <ol>
+          <li>When the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+          <li>When the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+          <li>When a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+          <li>The first player to score 100 or a score above it wins.</li>
+        </ol>
+      <div class="row" id="players">
+        <div class="col-md-6 col-s-12 col-xs-12" id="playerOne">
+          <h3><span class="player">Player 1</span>
+          <input type="text" name="" value=""></input>
+            <br>
+          <h4>Total Score: <span id="playerOne-score"></span></h4>
+        </div>
+        <div class="col-md-6 col-s-12 col-xs-12" id="playerTwo">
+          <h3><span class="player">Player 2</span>
+            <input type="text" name="" value=""></input>
+            <br>
+          <h4>Total Score: <span id="playerTwo-score"></span></h4>
+        </div>
+      </div>
+      <br>
+      <div class="row" id=scores>
+        <div class="col-md-6 col-s-12 col-xs-12">
+          <h3>Dice Roll: <span id="current-roll"></span></h3>
+          <h3>Turn Score: <span id="cumulative-total"></span></h3>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6 col-s-12 col-xs-12">
+          <form id="dice-roll">
+            <button type="submit" >ROLL DICE</button>
+          </form>
+        </div>
+        <br>
+        <div class="col-md-6 col-s-12 col-xs-12">
+          <form id="end-turn">
+            <button onclick="" type="submit" >END</button>
+          </form>
+        </div>
+      </div>
+  </div>
+  <div id="footer">
+  </div>
+</body>
+
+</html>
