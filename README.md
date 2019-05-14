@@ -7,9 +7,7 @@ This is a game with two players where each player is given a chance to roll a di
 ## Setup/Installation Requirements
 * Internet cnnection
 * A laptop or smart phone
-*
-* 
-*
+This game depends on three languages html, css and javascript one however may or may not have bootstrap to perform some of the operations.
 {Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
 ## Known Bugs
 {Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
