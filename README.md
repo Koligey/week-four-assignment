@@ -21,5 +21,5 @@ bootstrap
 Incase of a problem contact chemutaikoligey@gmail.com
 
 ### License
-https://choosealicense.com/licenses/mit/#
+[https://choosealicense.com/licenses/mit/#]
 Copyright (c) {2019} chemutai koligey
