@@ -1,4 +1,4 @@
-# {Application Name}
+# PIG DICE GAME
 #### {Brief description of application}, {Date of current version}
 #### By **{List of contributors}**
 ## Description
